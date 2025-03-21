@@ -99,6 +99,7 @@ import BlankPagePage from "./pages/BlankPagePage";
 
 // i lap routes
 import CategoryPage from "./pages/CategoryPage";
+import CoursePage from "./pages/CoursePage";
 
 function App() {
   return (
@@ -226,6 +227,9 @@ function App() {
 
         {/* Ilap routes */}
         <Route exact path='/category' element={<CategoryPage />} />
+        <Route exact path='/course' element={<CoursePage />} />
+
+        
 
 
         <Route exact path='*' element={<ErrorPage />} />
